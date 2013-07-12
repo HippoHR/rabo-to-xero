@@ -3,6 +3,7 @@ rabo-to-xero
 Formats the Dutch Rabobank CSV format for bank statements so it can be imported by Xero.
 
 Input format (http://www.rabobank.nl/images/formaatbeschrijving_csv_kommagescheiden_nieuw_29539176.pdf, http://www.sepa.nl/):
+
 1.	REKENINGNUMMER_REKENINGHOUDER   IBAN number.
 2.	MUNTSOORT
 3.	RENTEDATUM                      YYYYMMDD
@@ -24,6 +25,7 @@ Input format (http://www.rabobank.nl/images/formaatbeschrijving_csv_kommageschei
 19.	MANDAAD_ID
 
 Target format:
+
 1.	REKENINGNUMMER_REKENINGHOUDER   IBAN number.
 2.	MUNTSOORT
 3.	RENTEDATUM                      YYYYMMDD
